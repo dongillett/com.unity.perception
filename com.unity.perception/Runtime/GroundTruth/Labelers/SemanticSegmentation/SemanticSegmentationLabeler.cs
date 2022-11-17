@@ -36,7 +36,7 @@ namespace UnityEngine.Perception.GroundTruth
         /// <summary>
         /// The encoding format used when writing the captured segmentation images.
         /// </summary>
-        const LosslessImageEncodingFormat k_ImageEncodingFormat = LosslessImageEncodingFormat.Png;
+        const LosslessImageEncodingFormat k_ImageEncodingFormat = LosslessImageEncodingFormat.Raw;
 
         /// <summary>
         /// Event information for <see cref="SemanticSegmentationLabeler.imageReadback"/>

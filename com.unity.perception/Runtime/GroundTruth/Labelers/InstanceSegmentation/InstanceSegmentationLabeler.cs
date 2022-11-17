@@ -39,7 +39,7 @@ namespace UnityEngine.Perception.GroundTruth
         /// <summary>
         /// The encoding format used when writing the captured segmentation images.
         /// </summary>
-        const LosslessImageEncodingFormat k_ImageEncodingFormat = LosslessImageEncodingFormat.Png;
+        const LosslessImageEncodingFormat k_ImageEncodingFormat = LosslessImageEncodingFormat.Raw;
 
         static ProfilerMarker s_OnObjectInfoReceivedCallback = new ProfilerMarker("OnInstanceSegmentationObjectInformationReceived");
         static ProfilerMarker s_OnImageReceivedCallback = new ProfilerMarker("OnInstanceSegmentationImagesReceived");
